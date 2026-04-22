@@ -15,6 +15,6 @@ public class StringReverse {
             left++;
             right--;
         }
-        System.out.println("Swapped word: "+ new String(charArray));
+        System.out.println("Swapped word: " + new String(charArray));
     }
 }
