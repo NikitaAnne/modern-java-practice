@@ -18,7 +18,7 @@ public class Main {
 
         // Step 2: Create an object of the Inner class using the outer object
         OuterClass.InnerClass inner = outer.new InnerClass();
-        
+
         // Step 3: Call the method
         inner.display();
     }
