@@ -1,7 +1,5 @@
 package employee;
 
-import thiskeyword.Employee;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -11,18 +9,21 @@ class EmployeeList {
     int salary;
 
     public EmployeeList(String name, String department, int salary) {
+    this.name =name;
+    this.department= department;
+    this.salary= salary;
     }
 
     public String getDepartment() {
-        return this.department;
+        return department;
     }
 
     public int getSalary() {
-        return this.salary;
+        return salary;
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
 }
